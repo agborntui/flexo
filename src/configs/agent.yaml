@@ -52,10 +52,10 @@ models_config:
 #    max_new_tokens: 4000
 
     # Alternative OpenAI Configuration (uncomment to use)
-     vendor: openai
-     model_id: gpt-4o-mini
-     max_tokens: 4000
-     temperature: 0.7
+    #  vendor: openai
+    #  model_id: gpt-4o-mini
+    #  max_tokens: 4000
+    #  temperature: 0.7
 
      # Alternative Anthropic Configuration (uncomment to use)
 #     vendor: anthropic
@@ -83,12 +83,12 @@ models_config:
 #     temperature: 0.7
 
      # Alternative ollama Configuration (uncomment to use)
-#     vendor: openai-compat-granite
-#     base_url: http://0.0.0.0:11434/v1
-#     model_id: granite31
-#     api_key: ollama
-#     max_tokens: 2000
-#     temperature: 0.7
+    vendor: openai-compat-granite
+    base_url: http://127.0.0.1:11434/v1
+    model_id: granite3.2:8b
+    api_key: ollama
+    max_tokens: 2000
+    temperature: 0.7
 
 # MCP configuration
 #mcp_config:
